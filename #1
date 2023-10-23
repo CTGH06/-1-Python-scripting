@@ -1,0 +1,18 @@
+# Get IP Address through Python Programming
+import socket
+hostname = socket.gethostname()
+IPAddr = socket.gethostbyname(hostname)
+
+print("Your computer's name is:" + hostname)
+print("Your computer IP Address is:" + IPAddr)
+
+#Use online source for IP address
+GEO_IP_API_URL = hostip.info
+IP_TO_SEARCH = '________'
+req = (GEO_IP_API_URL + IP_TO_SEARCH)
+
+#Print country
+print(hostip.info ['country'])
+
+#Print city
+print(hostip.info ['city'])
